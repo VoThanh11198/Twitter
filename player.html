@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Embedded Player</title>
+<style>
+  html, body {
+    margin: 0; padding: 0;
+    background: #000;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <video autoplay muted controls playsinline onclick="window.open('https://vt.tiktok.com/ZSSbCa5Lc/', '_blank')">
+    <source src="https://YOUR-DOMAIN/video.mp4" type="video/mp4" />
+  </video>
+</body>
+</html>
